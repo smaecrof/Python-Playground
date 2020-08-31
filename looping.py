@@ -46,9 +46,17 @@ print("\nList comprehension test: \n" + str(tenCubes))
 
 
 
+#Slicing 
+
+players = ["Spencer", "Charles", "michael", "florence"]
+print(players[0:2])
 
 
+longList = ["one", "two", "three", "four","five","six","seven","eight","Nine","ten"]
 
+print("First three items in the list: " + str(longList[0:3]))
+print("Three items from the middle of the list: " + str(longList[3:6]))
+print("The last three items in the list: " + str(longList[-3:]))
 
 
 
